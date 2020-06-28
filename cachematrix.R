@@ -33,7 +33,7 @@ makeCacheMatrix <- function(x = matrix()) {   # x is the formal variable
 # compute the inverse of the matrix defined and cache it.This is done through the
 # use of the "getters" and "setters" that were defined in the makeCacheMatrix
 # function. In the case that the inverse has already been calculated, the 
-# function skips the calculation and returns the inverse form the case. In another
+# function skips the calculation and returns the inverse. In another
 # case, the function calculates the inverse and set it in the cache with the
 # setinv() function.
 
